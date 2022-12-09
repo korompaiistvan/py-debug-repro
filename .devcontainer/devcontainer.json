@@ -1,0 +1,17 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:3.8",
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [], 
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip install flask",
+
+	"extensions": [
+		"ms-python.python"
+	]
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+}
